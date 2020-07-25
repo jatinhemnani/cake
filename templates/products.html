@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>Products</title>
+<link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+    integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% endblock %}
+
+
+{% block content %}
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<h2 style="font-size: 45px; text-align:center">Hot Right Now</h2>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+
+<!-- PRPDUCTS LIST  -->
+
+<!-- PRODUCT 1 -->
+<div class="grid-container">
+    <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+        <div class="cell">
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/image/352/352/k3ncakw0pkrrdj/mobile/a/h/w/realme-x-rmx1901-original-imafgzg9yvran9r3.jpeg?q=70" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%; height:350px" alt="{{main[1]}}"> 
+                
+                <div class="card-section">
+                    <h6>{{ main[1] }}</h6>
+                    <p>{{ main[0] }}</p>
+                </div>
+                <p style="margin-left: 15px;">Rating: {{ main[2] }}⭐</p>
+                <a href="/" target="_blank"><button type="button" 
+                    class="success button expanded" >Buy Now</button></a>
+                
+                
+            </div>
+        </div>
+
+        <!-- PRODUCT 2 -->
+        <div class="cell">
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/image/352/352/k87nxjk0/mobile/m/f/k/redmi-note-8-pro-mzb8314in-original-imafqaf3mak86q8e.jpeg?q=70" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%; height:350px" alt="{{main1[1]}}"> 
+                <div class="card-section">
+                    <h6>{{ main1[1] }}</h6>
+                    <p>{{ main1[0] }}</p>
+                </div>
+                <p style="margin-left: 15px;">Rating: {{ main1[2] }}⭐</p>
+                <a href="/" target="_blank"><button type="button" 
+                    class="success button expanded" >Buy Now</button></a>
+            </div>
+        </div>
+
+        <!-- PRODUCT 3 -->
+        <div class="cell">
+            <div class="card">
+                <img src="https://rukminim1.flixcart.com/image/352/352/jxz0brk0/mobile/m/6/z/redmi-k20-pro-na-original-imafgb4yzvmbfewa.jpeg?q=70" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%; height:350px" alt="{{main2[1]}}">
+                <div class="card-section">
+                    <h6>{{ main2[1] }}</h6>
+                    <p>{{ main2[0] }}</p>
+                </div>
+                <p style="margin-left: 15px;">Rating: {{ main2[2] }}⭐</p>
+                <a href="/" target="_blank"><button type="button" 
+                    class="success button expanded" >Buy Now</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="grid-x grid-margin-x small-up-2 medium-up-3">
+    <div class="cell">
+        <div class="card">
+            <img src="https://rukminim1.flixcart.com/image/352/352/k65d18w0/mobile/4/k/4/poco-x2-mzb9011in-original-imafzz2hbfkvftm5.jpeg?q=70" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%; height:350px" alt="{{main3[1]}}">
+            <div class="card-section">
+                <h6 style="font-size: 17px;">{{ main3[1] }}</h6>
+                <p>{{ main3[0] }}</p>
+            </div>
+            <p style="margin-left: 15px;">Rating: {{ main3[2] }}⭐</p>
+            <a href="/" target="_blank"><button type="button" 
+                class="success button expanded" >Buy Now</button></a>
+        </div>
+    </div>
+
+    <!-- PRODUCT 5 -->
+    <div class="cell">
+        <div class="card">
+            <img src="https://rukminim1.flixcart.com/image/352/352/kactpjk0/mobile/c/k/b/mi-10-b07x1kt6mr-original-imafrxce2tycgyf6.jpeg?q=70" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%; height:350px" alt="{{main4[1]}}">
+            <div class="card-section">
+                <h6 style="font-size: 18px;">{{ main4[1] }}</h6>
+                <p>{{ main4[0] }}</p>
+            </div>
+            <p style="margin-left: 15px;">Rating: {{ main4[2] }}⭐</p>
+            <a href="/" target="_blank"><button type="button" 
+                class="success button expanded" >Buy Now</button></a>
+        </div>
+    </div>
+
+    <!-- PRODUCT 6 -->
+    <div class="cell">
+        <div class="card">
+            <img src="https://rukminim1.flixcart.com/image/352/352/k7dnonk0/mobile/q/d/h/realme-6-pro-rbs0624in-original-imafpmftfgyfpndf.jpeg?q=70" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%; height:350px" alt="{{main5[1]}}">
+            <div class="card-section">
+                <h6>{{ main5[1] }}</h6>
+                <p>{{ main5[0] }}</p>
+            </div>
+            <p style="margin-left: 15px;">Rating: {{ main5[2] }}⭐</p>
+            <a href="/" target="_blank"><button type="button" 
+                class="success button expanded" >Buy Now</button></a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
